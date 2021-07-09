@@ -1,0 +1,44 @@
+.openModal{
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+    background:  rgba(0,0,0,.125);
+    position: fixed;
+    left:38.80%;
+    z-index: 10;
+    padding: 15px 20px;
+
+}
+.modal-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-title h4{
+    font-family:monospace;
+    font-size:19px
+}
+.modal-title button{
+    max-width: 50px;
+    width: 100%;
+    padding: 2px 3px;
+}
+.modal-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-input input{
+    max-width: 180px;
+    width: 100%;
+    padding: 8px 8px;
+    outline: none;
+}
+
+.modal-input button {
+    max-width: 100px;
+    width: 100%;
+    padding: 5px 3px;
+    outline: none;
+}

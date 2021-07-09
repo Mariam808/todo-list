@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius:8px;
+    padding:10px 16px;
+}
+.header h5{
+    font-size: 23px;
+    font-family: monospace;
+}
+.header p{
+    font-size: 16px;
+    font-family: monospace;
+}
+.header input {
+    width: 50%;
+    padding: 11px 5px;
+    outline: none;
+    margin-bottom: 15px;
+}
